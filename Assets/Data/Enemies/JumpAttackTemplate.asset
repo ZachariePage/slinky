@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38195b0917b472419d932c1c0ae779f, type: 3}
+  m_Name: JumpAttackTemplate
+  m_EditorClassIdentifier: 
+  coldown: 0.1
+  HorizontalJumpForce: 20
+  VerticalJumpForce: 5

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &564863541769594418
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      propertyPath: m_Name
+      value: SM_LongCandy
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -3672338126965781387, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3282452369872287987}
+    - targetCorrespondingSourceObject: {fileID: -3672338126965781387, guid: 20923bf344b8895459721edde0541c90, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3556269732804618066}
+  m_SourcePrefab: {fileID: 100100000, guid: 20923bf344b8895459721edde0541c90, type: 3}
+--- !u!1 &5395303042883660359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3672338126965781387, guid: 20923bf344b8895459721edde0541c90, type: 3}
+  m_PrefabInstance: {fileID: 564863541769594418}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3282452369872287987
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5395303042883660359}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.247038, y: 1.5664577, z: 1.728858}
+  m_Center: {x: 0.0010234118, y: 0.80468416, z: 0.041116923}
+--- !u!114 &3556269732804618066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5395303042883660359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0770b6b895539f1448d4f5c163376823, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScoreGiven: 1
+  collected: 0
+  OnCollectionCue:
+  - {fileID: 11400000, guid: 14319d2aaf7b8324989387e202db7b83, type: 2}

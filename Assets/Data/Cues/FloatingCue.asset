@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5938d4b7d403b01429f72a2b10588b32, type: 3}
+  m_Name: FloatingCue
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1480256443465063476, guid: 015546557b4165f469fbcbaaabe61710, type: 3}
+  defaultPng: {fileID: 21300000, guid: 002e1adfea524704d9321c6765c8f447, type: 3}
+  autoDestroy: 1
+  destroyDelay: 2

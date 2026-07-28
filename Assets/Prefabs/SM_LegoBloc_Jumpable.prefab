@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8556185203362098725
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_Name
+      value: SM_LegoBloc_Jumpable
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      propertyPath: m_TagString
+      value: Chomp
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4378247078418406543}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2479555624798957390}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3995930276351361765}
+  m_SourcePrefab: {fileID: 100100000, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+--- !u!1 &8826145758694921076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4cee7961b633ff24aaa13cb7ab185685, type: 3}
+  m_PrefabInstance: {fileID: 8556185203362098725}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &4378247078418406543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826145758694921076}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 1.8017445, z: 4.004507}
+  m_Center: {x: 0, y: 1.1044354, z: -0.0022535324}
+--- !u!54 &2479555624798957390
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826145758694921076}
+  serializedVersion: 4
+  m_Mass: 10
+  m_Drag: 5
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!114 &3995930276351361765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8826145758694921076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0ee52704643e04f9078a5c8422da12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  springValue: {fileID: 0}
+  requiredPlayers: 1
+  OnChompCues: []
+  OnReleaseCues: []
+  notEnoughPlayersConfig: {fileID: 11400000, guid: 78d14ef3db8c3364ebe266de2cf742f2, type: 2}
+  enoughPlayersConfig: {fileID: 11400000, guid: 0ccee41788483fc45bf3da7bf53bf226, type: 2}
+  attachmentType: 1
+  manualAxis: 0

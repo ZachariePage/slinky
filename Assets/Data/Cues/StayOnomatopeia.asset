@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 253a1a8d55c26c54eb86491decbae7b5, type: 3}
+  m_Name: StayOnomatopeia
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 713212041019538025, guid: 59fa6ba32ad7abf42b78b5f29c1b581a, type: 3}
+  defaultPng: {fileID: 21300000, guid: 3b03691cab03ad14f94bc149eb7fc3df, type: 3}
+  autoDestroy: 0
+  destroyDelay: 999

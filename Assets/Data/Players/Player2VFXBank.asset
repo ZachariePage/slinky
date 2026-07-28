@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87872c344a472a74a99934526d9b68df, type: 3}
+  m_Name: Player2VFXBank
+  m_EditorClassIdentifier: 
+  Bite: {fileID: 11400000, guid: 00dfd737aa3236741b21bb8782056d16, type: 2}
+  BiteEmpty: {fileID: 11400000, guid: 00dfd737aa3236741b21bb8782056d16, type: 2}
+  Death: {fileID: 11400000, guid: 00dfd737aa3236741b21bb8782056d16, type: 2}
+  Footstep: {fileID: 11400000, guid: 00dfd737aa3236741b21bb8782056d16, type: 2}
+  BiteSprite: {fileID: 21300000, guid: 6bf6c02585f607f419783dbe90115a32, type: 3}
+  Bark: {fileID: 21300000, guid: a791d4fa5c835ae46acf639dcfd2c8c2, type: 3}
+  FootstepSprite: {fileID: 0}
+  DeathSprite: {fileID: 0}
+  EatCandy: {fileID: 21300000, guid: d3a463e4f6a6a584694eab6040075eb7, type: 3}

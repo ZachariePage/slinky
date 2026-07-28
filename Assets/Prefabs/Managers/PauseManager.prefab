@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6038583120970661424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3935196169172959764}
+  - component: {fileID: 4658624052001678974}
+  m_Layer: 0
+  m_Name: PauseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3935196169172959764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038583120970661424}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4658624052001678974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038583120970661424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd7b1cc95d9649feb41fe314dec9746b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  transitionGO: {fileID: 0}
+  transitionAnimator: {fileID: 0}
+  transitionInState: TransitionIn
+  cancelAction: {fileID: 2427705669749221289, guid: 62ba2299407b17a4f8d06c750f62fd08, type: 3}
+  pauseMenuPanel: {fileID: 0}
+  settingsPanel: {fileID: 0}
+  graphicsTab: {fileID: 0}
+  audioTab: {fileID: 0}
+  controlsTab: {fileID: 0}
+  inGameUI: {fileID: 0}
+  reactionDuration: 0.3
+  player1IdleGO: {fileID: 0}
+  player1OpenGO: {fileID: 0}
+  player2IdleGO: {fileID: 0}
+  player2OpenGO: {fileID: 0}
